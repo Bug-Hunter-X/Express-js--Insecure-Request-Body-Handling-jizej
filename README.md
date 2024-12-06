@@ -1,0 +1,3 @@
+# Express.js: Insecure Request Body Handling
+
+This repository demonstrates a common vulnerability in Express.js applications: insecure handling of request bodies.  The `bug.js` file shows code that directly accesses the `req.body` without any validation or sanitization. This can lead to unexpected behavior, errors, and potentially security vulnerabilities (e.g., injection attacks).  The `bugSolution.js` file provides a secure solution.
